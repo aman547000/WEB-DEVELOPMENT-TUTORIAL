@@ -1,0 +1,18 @@
+/* max height */
+.box{
+    max-height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+/* min height */
+.mydiv{
+    margin: 10px;
+    min-height: 100px;
+    border: 1px solid black ;
+}
+
+#divi{
+    height: 50px;
+    border: 1px solid black;
+    overflow: visible;
+}

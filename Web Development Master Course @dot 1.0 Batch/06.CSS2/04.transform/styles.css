@@ -1,0 +1,41 @@
+.transform {
+    background-color: blanchedalmond;
+    border: 2px solid red;
+    height: 350px;
+    width: 350px;
+    }
+
+.translate {
+    background-color: aliceblue;
+    transform: translateX(10px);
+    transform: translateY(20px);
+    transform: translate(10px, 20px);
+    }
+
+.rotate {
+    background-color: #415dd5;
+    transform: rotate(45deg);
+    }
+
+.scale {
+    background-color: red;
+    transform: scale(1, 2);
+    }
+
+.skew {
+    background-color: pink;
+    transform: skew(27deg);
+    }
+.ThreeD {
+    background-color: antiquewhite;
+    height: 400px;
+    width: 500px;
+    border: 2px solid pink;
+    }
+
+.translate3d{
+    transform: translate3d(42px, 62px, -135px);
+    padding: 10px;
+    background-color: aliceblue;
+    } 
+      

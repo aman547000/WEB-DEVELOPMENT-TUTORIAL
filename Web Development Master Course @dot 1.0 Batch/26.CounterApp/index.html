@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- https://codehelp-counter-app.netlify.app/ -->
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- wrapper -->
+    <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#344151] gap-10">
+        <div class="text-[#0398d4] font-medium text-[20px]">
+            Increment and Decrement 
+        </div>
+    
+        <div class="bg-white flex flex-row text-[25px] text-[#344151] rouded-sm gap-12 p-3 px-5">
+            <button onclick="decrement()" class="border-r-2 border-[#bfbfbf] pr-5 icon-pointer" >
+                <i class="fa-solid fa-minus"></i>
+            </button>
+
+            <div id="count" class="font-bold">0</div>
+            
+            <button onclick="increment()" class="border-l-2 border-[#bfbfbf] pl-5 icon-pointer">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Link Font Awesome  -->
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+    <!-- Link External CSS  -->
+    <script src="./index.js"></script>
+
+</body>
+</html>
